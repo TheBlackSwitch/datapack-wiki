@@ -92,7 +92,7 @@ Voila, now we only need to run the function `example:get_default_components/init
 In addition, you can also filter for any components using the `include` and `exclude` fields in your loot table. 
 ```json
 {
-  "function": "minecraft:copy_components",
+  "type": "minecraft:copy_components",
   "source": "tool",
   "include": [
     "minecraft:max_stack_size"
