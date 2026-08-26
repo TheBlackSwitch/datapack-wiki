@@ -23,10 +23,10 @@ To start, we make a loot table that drops a dummy item and applies the ``copy_co
 		"entries": [{
 			"type": "minecraft:item",
 			"name": "minecraft:poisonous_potato",
-			"functions": [{
-				"function": "minecraft:copy_components",
+			"modifier": {
+				"type": "minecraft:copy_components",
 				"source": "???"
-			}]
+			}
 		}]
 	}]
 }
@@ -44,10 +44,10 @@ We'll use ``tool`` here since that's the only way to pass an _item_ to the funct
 		"entries": [{
 			"type": "minecraft:item",
 			"name": "minecraft:poisonous_potato",
-			"functions": [{
-				"function": "minecraft:copy_components",
+			"modifier": {
+				"type": "minecraft:copy_components",
 				"source": "tool"
-			}]
+			}
 		}]
 	}]
 }
